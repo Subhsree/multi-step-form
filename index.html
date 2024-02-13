@@ -8,6 +8,9 @@
   
   <title>Frontend Mentor | Multi-step form</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -52,51 +55,50 @@
     <!--Sidebar end -->
     <form action="">
       <!-- Step 1 start -->
-      <div class="tab">
-        <h1 class="darkblue">Personal info</h1>
-        <p class="grayfont">Please provide your name, email address, and phone number.</p>
+      <!-- <div class="tab">
+        <h1 class="marinebluefont ubuntu-bold">Personal info</h1>
+        <p class="grayfont ubuntu-medium">Please provide your name, email address, and phone number.</p>
 
-        <label for="name" class="marinebluefont bold">Name</label>
+        <label for="name" class="marinebluefont ubuntu-medium">Name</label>
         <input type="text" name="name" id="name" placeholder="e.g.stephenking" class="inputbox">
 
-        <label for="emailid" class="marinebluefont bold">Ema
-          
-          
-          il Address</label>
-        <input type="email" name="emailid" id="emailid" placeholder="e.g.stephenking@lorem.com" class="inputbox">
+        <label for="emailid" class="marinebluefont ubuntu-medium">Email Address</label>
+        <input type="email" name="emailid" id="emailid" placeholder="e.g.stephenking@lorem.com" class="inputbox ubuntu-medium ">
 
-        <label for="phoneno" class="marinebluefont bold">Phone Number</label>
-        <input type="text" name="phno" id="phno" placeholder="e.g.+1 234 567 890" class="inputbox">
-      </div>
+        <label for="phoneno" class="marinebluefont ubuntu-medium">Phone Number</label>
+        <input type="text" name="phno" id="phno" placeholder="e.g.+1 234 567 890" class="inputbox ubuntu-medium ">
+      </div> -->
       <!-- Step 1 end -->
-
       <!-- Step 2 start -->
-      <!-- <div class="tab">
-        <h1 class="heading">Select your plan</h1>
-        <p class="grayfont">You have the option of monthly or yearly billing.</p>
-        <div class="planbtn">
+      <div class="tab">
+        <h1  class="marinebluefont ubuntu-bold">Select your plan</h1>
+        <p class="grayfont ubuntu-medium">You have the option of monthly or yearly billing.</p>
+        <div class="planbtn-container">
+          <div class="planbtn">
           <img src="assets/images/icon-arcade.svg" alt="arcade">
-          <span>Arcade</span>
-          <span>$9/mo</span>
+          <span class="marinebluefont ubuntu-bold">Arcade</span>
+          <span class="grayfont">$9/mo</span>
           <span></span>
         </div>
         <div class="planbtn">
           <img src="assets/images/icon-advanced.svg" alt="advanced">
-          <span>Advanced</span>
-          <span>$12/mo</span>
+          <span class="marinebluefont ubuntu-bold">Advanced</span>
+          <span class="grayfont">$12/mo</span>
           <span></span>
         </div>
         <div class="planbtn">
           <img src="assets/images/icon-pro.svg" alt="pro">
-          <span>Pro</span>
-          <span>$15/mo</span>
+          <span class="marinebluefont ubuntu-bold">Pro</span>
+          <span class="grayfont">$15/mo</span>
           <span></span>
         </div>
-        <div class="">
+        <div class="plantime">
 
         </div>
-      </div> -->
+        </div>
+      </div>
       <!-- Step 2 end -->
+      <button type="submit" class="btn">Next Step</button>
 
       <!-- step 3 start -->
       <!-- <div class="tab">
